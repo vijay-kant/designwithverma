@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Bitshow';
+	src: url('Bitshow.ttf') format('truetype');
+}h1 {
+}
+body p {
+    font-family: Bitshow;
+    font-style: italic;
+    font-size: x-large;
+    line-height: 100px;
+    border-color: #EAA3A4;
+    border-style: dotted solid solid;
+    border-top-width: thick;
+}

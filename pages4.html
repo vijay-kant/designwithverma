@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('Buttons/Asset 5.png','Buttons/Asset 6.png','Buttons/Asset 1.png','Buttons/Asset 8.png')">
+	<table width="100%" height="30" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td width="42%" bgcolor="#EBD1D1">&nbsp;</td>
+      <td width="6%" bgcolor="#EBD1D1"><h4>50% off</h4></td>
+      <td width="52%" bgcolor="#EBD1D1">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+	
+<img src="img/banner/D20817719_WLD_Mi_Evo_series_BAU_Tallhero_3000x1200._CB658878823_.jpg" width="100%" height="auto" alt=""/>
+<table width="100%" border="1">
+  <tbody>
+    <tr>
+      <td width="19%">&nbsp;</td>
+      <td width="7%"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Home_Button','','Buttons/Asset 5.png',1)"><img src="Buttons/Asset 4.png" alt="" width="95" height="44" id="Home_Button"></a></td>
+      <td width="9%"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Career_button','','Buttons/Asset 6.png',1)"><img src="Buttons/Asset 5.png" alt="" width="95" height="45" id="Career_button"></a></td>
+      <td width="58%">&nbsp;</td>
+      <td width="7%">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<table width="100%" border="1">
+  <tbody>
+    <tr>
+      <td width="5%" height="283">&nbsp;</td>
+      <td width="22%"><img src="Buttons/Asset 2.png" width="240" height="231" alt=""/></td>
+      <td width="16%"><a href="https://www.cmsnift.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('rollover_image','','Buttons/Asset 8.png',1)"><img src="Buttons/Asset 2.png" alt="Rollover image is missing at home " width="232" height="204" id="rollover_image"></a></td>
+      <td width="5%">&nbsp;</td>
+      <td width="18%"><p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','Buttons/Asset 1.png',1)"><img src="Buttons/Asset 2.png" alt="" width="258" height="227" id="Image6"></a></p></td>
+      <td width="10%">&nbsp;</td>
+      <td width="15%"><img src="Buttons/Asset 2.png" width="218" height="209" alt=""/></td>
+      <td width="9%">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
